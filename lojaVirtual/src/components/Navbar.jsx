@@ -1,6 +1,8 @@
+import NavbarTop from "./navbar.js"
+
 export default function Navbar() {
   return (
-    <nav>
+    <NavbarTop>
       <span>Soso</span>
       <ul>
         <li>
@@ -21,16 +23,16 @@ export default function Navbar() {
       </ul>
       <ul>
         <li>
-          <a></a>
+        <a><img width="32" height="32" src="https://img.icons8.com/small/32/000000/search--v1.png" alt="search--v1"/></a>
         </li>
         <li>
-          <a></a>
+          <a><img width="32" height="32" src="https://img.icons8.com/small/32/user-male-circle.png" alt="user-male-circle"/></a>
         </li>
         <li>
-          <a></a>
+          <a><img width="32" height="32" src="https://img.icons8.com/small/32/shopping-bag.png" alt="shopping-bag"/></a>
         </li>
       </ul>
       <button>Faça o teste</button>
-    </nav>
-  );
+    </NavbarTop>
+  )
 }
