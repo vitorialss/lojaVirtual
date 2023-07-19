@@ -14,11 +14,20 @@ span {
     font-weight: 700;
     font-size: 2rem;
     padding: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
    }
 
    ul {
     display: flex;
-    gap: 20px;
+    gap: 30px;
+   }
+
+   li {
+
+    &:hover{
+        cursor: pointer;
+        font-weight:700;
+    }
    }
 
    button {
@@ -27,6 +36,13 @@ span {
     border-radius: 5px;
     background-color: #000000;
     color: #ffffff;
+    border-style: none;
+
+    &:hover{
+        background-color:#EAF586;
+        color: #000000;
+        cursor: pointer;
+    }
    }
 
 `

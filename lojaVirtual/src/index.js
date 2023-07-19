@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
  }
   
   `

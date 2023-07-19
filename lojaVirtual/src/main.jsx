@@ -1,13 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx';
-import GlobalStyle from './index.js';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import GlobalStyle from "./index.js";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <GlobalStyle /> 
-      <App />
-     
-    
+    <GlobalStyle />
+    <App />
   </React.StrictMode>
-)
+);

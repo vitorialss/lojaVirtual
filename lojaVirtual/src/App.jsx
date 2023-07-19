@@ -1,3 +1,4 @@
+import Extra from "./components/Extra.jsx";
 import Navbar from "./components/Navbar.jsx";
 
 
@@ -7,7 +8,11 @@ function App() {
 
     return (
        <>
-            <Navbar/></>
+            <Navbar/>
+            <Extra />
+            
+
+        </>
     )
 }
 export default App
